@@ -1,0 +1,38 @@
+[data-md-color-scheme="claro"] {
+    --md-primary-fg-color:#005CA9!important;
+    --md-accent-fg-color: #005CA9;
+    --md-typeset-a-color: #005CA9;
+}
+
+.md-nav__source {
+  background-color: #F59727;
+}
+
+
+[data-md-color-scheme="slate"] {
+    --md-primary-fg-color:#005CA9!important;
+    --md-accent-fg-color: #005CA9;
+    --md-default-bg-color: #121212;
+    --md-typeset-a-color: !important;
+    --md-typeset-table-color: rgba(255, 255, 255, 0.211);
+    --md-typeset-table-color--light: rgba(128, 128, 128, 0.301);
+}
+
+[data-md-color-scheme="slate"] .usecaseElement {
+  filter: invert(100%);
+}
+
+body {
+  text-align: justify;
+}
+
+
+p {
+  text-indent: 1em;
+}
+
+.md-typeset table th {
+  background-color: #005CA9; /* cor de fundo do header */
+  color: white;              /* cor do texto do header */
+  text-align: center;
+}
